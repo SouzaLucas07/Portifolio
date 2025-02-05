@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.header .title{
+    text-align: center;
+}
+
+.informations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.informations p{
+    margin: .5rem;
+}
