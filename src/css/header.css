@@ -20,4 +20,29 @@
 }
 .informations p{
     margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.informations p::before{
+    display: inline-block;
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+.informations .job::before{
+    background-image: url(/src/img/icons/job.svg);
+}
+.informations .location::before{
+    background-image: url(/src/img/icons/location.svg);
+}
+.informations .email::before{
+    background-image: url(/src/img/icons/email.svg);
+}
+.informations .phone::before{
+    background-image: url(/src/img/icons/phone.svg);
 }
