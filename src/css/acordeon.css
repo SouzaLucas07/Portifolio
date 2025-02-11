@@ -41,14 +41,20 @@
     background-size: contain;
     background-image: url(/src/img/icons/arrow-top.svg);
     align-items: center;
-    transition: .25s;
+    transition: .80s;
 }
 .acordeon.open .trigger::after{
     transform: rotate(180deg);
 }
 .acordeon .content{
-    display: none;
+    transition: opacity .25s ease-in-out;
+    overflow: hidden;
+    
+    opacity: 0;
+    height: 0;
 }
 .acordeon.open .content{
-    display:block;
+    display:inline-block;
+    height: auto;
+    opacity: 1;
 }
