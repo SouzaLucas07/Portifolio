@@ -47,6 +47,13 @@
     background-size: contain;
     margin-right: .5rem;
 }
+.informations a{
+    color: #fff;
+    text-decoration: none;
+}
+.informations a:hover{
+    text-decoration: underline;
+}
 .informations .job::before{
     background-image: url(/src/img/icons/job.svg);
 }
