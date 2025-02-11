@@ -20,19 +20,19 @@
 <body>
    <div class="main">
     <header class="header"> 
-        <img src="img/foto LucasPerfil.jpg" alt="Foto de perfil" class="photo">
+        <img src="img/foto LucasPerfil.jpg" alt="Foto de perfil" class="photo profile.photo">
 
-        <h1 class="title">Olá,<br> eu sou Lucas Souza</h1>
+        <h1 class="title">Olá,<br> eu sou <span class="profile.name">Carregando...</span></h1>
 
         <div class="informations">
-            <p class="job">Web Developer</p>
-            <p class="location">Sorocaba - sp</p>
-            <p class="phone"><a href="tel:+55 15 99814-6591">(15)99814-6591</a></p>
-            <p class="email"><a href="mailto:souza.lucasp10@gmail.com">souza.lucasp10@gmail.com</a></p>
+            <p class="job"><span class="profile.job">Carregando...</span></p>
+            <p class="location"><span class="profile.location">Carregando...</span></p>
+            <p class="phone"><a href="tel:+55 15 99814-6591" class="profile.number">Carregando...</a></p>
+            <p class="email"><a href="mailto:souza.lucasp10@gmail.com" class="profile.email">Carregando@gmail.com...</a></p>
         </div>
     </header>
 
-    <section class="acordeon open">
+    <section class="acordeon">
         <button class="trigger" type="button">Skills</button>
   
         <div class="content">
@@ -142,5 +142,7 @@
    </div>
 
    <script src="js/acordeon.js"></script>
+   <script src="data/api.js"></script>
+   <script src="data/main.js"></script>
 </body>
 </html>
