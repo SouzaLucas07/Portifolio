@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
 }
+.skills .tools h3,
+.skills .personal h3 {
+    margin-left: 1rem;
+}
 .skills .tools ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0;
+    margin-left: 1rem;
     padding: 0;
     list-style: none;
 }
